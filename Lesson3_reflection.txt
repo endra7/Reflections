@@ -20,3 +20,9 @@ branch: it is local command to branch out the project so that changes can be mad
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 The benefit of having a copy of the last known state of the remote stored locally is that even if we are offline, we can track the changes made by others through git fetch once we are online and we can merge them with our changes.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without using git or github, we could have collaborated using combo of e-mail and file sharing services,or google docs,dropbox etc.
+Using git and github will be easier as it will be harder to manage the collaborator and various changes through other techniques
+Without 

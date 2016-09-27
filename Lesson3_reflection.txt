@@ -6,3 +6,14 @@ Why might you want to always pull changes manually rather than having Git automa
 
 By automatically staying up-to-date with remote repository, our recent modification that we have not commited can get erased and we go back to square 1.Further more, it is not necessary that remote repository will be always contains desirable changes that we want to implement in the project
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+forks: command used in github for cloning the project directly in the github server 	without pulling down on our local.If we want to contribute to the project but we 	are not authorized to change it then we can fork it into our own repository
+
+clones: clone command is used to pull the project from remote github and creates and 	initializes directory automatically.If we are authorized to make commit then we 	
+	clone it and create and push our own commit.
+
+branch: it is local command to branch out the project so that changes can be made on it 	
+	without effecting it's original branch.Mostly used for keeping stable project 	
+	while development is being done in one of it's branch 
+

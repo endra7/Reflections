@@ -1,0 +1,46 @@
+-->
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area stores the current files in working directory that are to be commited to the repository. This give us the flexibility to commit only required and desired file to be committed in the repository
+
+-->
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+By using git add <file> we can add it to staging area.
+By using git diff --staged, we can find the changes between staging area and the recent commit in repository.
+through it we can commit one per logical change
+
+-->
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Sometimes instead of fixing bugs we may want to modify the logical value eg. new updates of the game while without modifying the original version. And also to reduce fatal HEAD errors.We can perform experimental features in the new branch while maintaining the master head.
+Eg we want to publish software in native language and also want to experiment on it's logic. Maintaining HEAD will be difficult and error prone. Thus branches would be helpful in keeping history organised.
+***
+like context_switching.
+Master branch: production quality branch never break always work
+Development branch: active work is taking place on project
+Experimental branch
+
+branch to collaborate publicly and to self
+
+compartmentalize project
+
+
+-->
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams help to findout which commit are accessible from the current head state.
+
+git config --global core.autocrlf true
+made this.delayBeforeBullet=10 in ine 424
+
+-->
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+By merging two branches, we'll be able to addon feature of secondary branch to master branch seamlessly.
+We represent it in diagram to get track of the the different sets of commits

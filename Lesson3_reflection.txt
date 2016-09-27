@@ -17,3 +17,6 @@ branch: it is local command to branch out the project so that changes can be mad
 	without effecting it's original branch.Mostly used for keeping stable project 	
 	while development is being done in one of it's branch 
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+The benefit of having a copy of the last known state of the remote stored locally is that even if we are offline, we can track the changes made by others through git fetch once we are online and we can merge them with our changes.
